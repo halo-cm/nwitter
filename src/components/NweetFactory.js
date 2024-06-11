@@ -84,7 +84,11 @@ const NweetFactory = ({ userObj }) => {
       />
       {attachment && (
         <div className="factoryForm__attachment">
-          <img src={attachment} style={{ backgroundImage: attachment }} />
+          <img
+            src={attachment}
+            alt="nweet attach"
+            style={{ backgroundImage: attachment }}
+          />
           <div className="factoryForm__clear" onClick={onClearAttachment}>
             <span>Remove</span>
             <FontAwesomeIcon icon={faTimes} />

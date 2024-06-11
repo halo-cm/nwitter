@@ -61,6 +61,7 @@ const Nweet = ({ nweetObj, isOwner }) => {
               alt="twt"
               width="50px"
               height="50px"
+              className="imgHover"
             />
           )}
           {isOwner && (
